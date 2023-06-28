@@ -1,0 +1,107 @@
+.main_container {
+  max-width: 1600px;
+  width: 100%;
+  height: 1067px;
+  margin: auto;
+  background-color: #0f172a;
+  padding: 100px 100px 100px 100px;
+  /* შემახსენე, როცა პედინგი ყველამხრიდან იდენტურია, უფრო მარტივად როგორ უნდა მიმეთითებინა სინტაქსურად */
+}
+
+/* section */
+
+.photo_text {
+  display: flex;
+  gap: 100px;
+  border: 5px solid green;
+}
+
+.photo {
+  height: 73%;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; 
+"flexi- ვცადე გასაცენტრად, (საექსპერიმენტოდ, იდეალური ცენტრირებისთვის, მიუხედავად იმისა
+რომ პროექტში იდეალური ცენტრირება არ გვჭირდება. არ გაცენტრა. რატომ?*/
+}
+
+.second_container {
+  background-color: aqua;
+  border: 4px solid yellow;
+}
+
+h2 {
+  font: Poppins;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+  color: white;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #94a3b8;
+  width: 451px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+
+.last_container {
+  border: 5px solid red;
+  width: 445.98px;
+  border-radius: 35px;
+  background-color: #1e293b;
+  padding: 8px 17px 8px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* რატომ აღარ ცენტრავს. თავიდან გაცენტრა, მაგრამ   css-ში სხვა დივების და ელემენტების დამატების
+  შემდეგ აირია. ვერ მივხდი რა მომენტიდან. შეიძლება გაცენტრვის სხვა მეთოდის გამოყენებაც, მაგრამ
+  მაგრამ ფლექსი რატომ არ მუშაობს ეგ მაინტერებს. რომ დამიკომენტარო ამ კონტეინერის კოდი. */
+}
+
+.second_p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.20000000298023224px;
+  color: white;
+}
+
+form {
+  height: 42%;
+  border: 3px solid red;
+}
+
+input {
+  display: block;
+  width: 451px;
+  padding: 17px 22px 17px 22px;
+  border-radius: 35px;
+  background-color: #334155;
+}
+
+label {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #e4e4e7;
+}
+
+button {
+  background-color: #2563EB;
+  width:180px;
+  border-radius: 50px;
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 28px; 
+   padding-top: 20px;
+  padding-bottom: 20px; 
+} 
